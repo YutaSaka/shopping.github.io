@@ -132,11 +132,11 @@ a {
 }
 
 .l-footer__addressTxt3 {
-  font-size: 25px
+  font-size: 21px
 }
 
 .l-footer__addressTxt3 span {
-  font-size: 20px
+  font-size: 18px
 }
 
 .l-footer__flex {
@@ -172,7 +172,7 @@ a {
 
 .l-footer__copy {
   text-align: center;
-  font-size: 12px
+  font-size: 9px
 }
 
 @media screen and (max-width:959px) {
@@ -337,7 +337,11 @@ a:hover {
 }
 
 .c-contents__en {
-  font-size: 27px
+  font-size: 24px
+}
+
+.c-contents__jp {
+  font-size: 14px
 }
 
 .c-contents__item {
@@ -466,8 +470,7 @@ a:hover {
 }
 
 .p-hero {
-  margin-top: 150px;
-  padding: 0 15px
+  margin-top: 150px
 }
 
 .p-hero__flex {
@@ -477,7 +480,8 @@ a:hover {
 }
 
 .p-hero__side {
-  width: 30%
+  width: 30%;
+  padding: 0 15px
 }
 
 .p-hero__time {
@@ -493,7 +497,8 @@ a:hover {
 
 .p-hero__open {
   position: relative;
-  font-size: 30px
+  font-size: 30px;
+  margin-bottom: 10px
 }
 
 .p-hero__open:after {
@@ -512,7 +517,8 @@ a:hover {
 
 .p-hero__close {
   font-size: 30px;
-  border-bottom: 1px solid #000
+  border-bottom: 1px solid #000;
+  margin-bottom: 10px
 }
 
 .p-hero__timeList {
@@ -523,6 +529,10 @@ a:hover {
   background-color: #f2ebe0;
   padding: 15px 20px;
   text-align: center
+}
+
+.p-hero__searchTtl {
+  font-size: 19px
 }
 
 .p-hero__button {
@@ -560,7 +570,8 @@ a:hover {
   flex-wrap: wrap;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between
+  justify-content: space-between;
+  margin: 5px 0
 }
 
 .p-hero__selectImg {
@@ -589,7 +600,7 @@ a:hover {
 
 @media screen and (max-width:959px) {
   .p-hero {
-    margin-top: 80px
+    margin-top: 75px
   }
   .p-hero__flex {
     display: block
@@ -825,8 +836,14 @@ a:hover {
   display: none
 }
 
+.p-important__txt {
+  margin-bottom: 15px;
+  font-size: 19px
+}
+
 .p-important__link {
-  text-decoration: underline
+  text-decoration: underline;
+  font-size: 17px
 }
 
 @media screen and (max-width:767px) {
@@ -912,7 +929,7 @@ a:hover {
 
 .p-more__itemList {
   width: 33.33%;
-  padding: 25px
+  padding: 13px 25px
 }
 
 .p-more__itemTxt {
@@ -945,7 +962,8 @@ a:hover {
 }
 
 .p-news__itemTxt1 {
-  color: #bf9c64
+  color: #bf9c64;
+  margin-top: 5px
 }
 
 @media screen and (max-width:767px) {
@@ -961,7 +979,7 @@ a:hover {
 
 .sliderArea {
   max-width: 70%;
-  padding: 0 25px
+  padding-left: 15px
 }
 
 .sliderArea.w300 {
@@ -1010,7 +1028,9 @@ a:hover {
 
 @media screen and (max-width:959px) {
   .sliderArea {
-    max-width: 100%
+    max-width: 100%;
+    padding-right: 0;
+    padding-left: 0
   }
 }
 
