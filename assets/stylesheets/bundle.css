@@ -217,7 +217,7 @@ a {
   -ms-flex-align: center;
   align-items: center;
   margin: 0 auto;
-  padding: 24px 15px
+  padding: 23px 15px
 }
 
 .l-header__icon {
@@ -237,6 +237,10 @@ a {
 .l-header__ttlLink {
   color: #fff;
   font-size: 20px
+}
+
+.l-header__language {
+  margin-right: 10px
 }
 
 .l-header__languageTxt {
@@ -267,7 +271,7 @@ a {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  height: 40px;
+  height: 42px;
   border-bottom: 1px solid #b9b9b9;
   background-color: #fff
 }
@@ -307,7 +311,7 @@ a {
     font-size: 16px
   }
   .l-header__topInner {
-    padding: 15px 65px 15px 20px
+    padding: 13px 65px 13px 20px
   }
 }
 
@@ -337,11 +341,11 @@ a:hover {
 }
 
 .c-contents__en {
-  font-size: 24px
+  font-size: 26px
 }
 
 .c-contents__jp {
-  font-size: 14px
+  font-size: 15px
 }
 
 .c-contents__item {
@@ -470,7 +474,7 @@ a:hover {
 }
 
 .p-hero {
-  margin-top: 150px
+  margin-top: 145px
 }
 
 .p-hero__flex {
@@ -492,7 +496,9 @@ a:hover {
 }
 
 .p-hero__today {
-  font-size: 17px
+  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: 5px
 }
 
 .p-hero__open {
@@ -518,16 +524,17 @@ a:hover {
 .p-hero__close {
   font-size: 30px;
   border-bottom: 1px solid #000;
-  margin-bottom: 10px
+  margin-bottom: 10px;
+  padding-bottom: 5px
 }
 
 .p-hero__timeList {
-  font-size: 16px
+  font-size: 14px
 }
 
 .p-hero__search {
   background-color: #f2ebe0;
-  padding: 15px 20px;
+  padding: 10px 20px;
   text-align: center
 }
 
@@ -600,7 +607,7 @@ a:hover {
 
 @media screen and (max-width:959px) {
   .p-hero {
-    margin-top: 75px
+    margin-top: 70px
   }
   .p-hero__flex {
     display: block
@@ -652,9 +659,8 @@ a:hover {
 }
 
 .p-humburger__box {
-  width: 50px;
-  height: 55px;
-  border-radius: 50%;
+  width: 45px;
+  height: 50px;
   position: absolute;
   top: 0;
   right: 4px;
@@ -821,14 +827,14 @@ a:hover {
 .p-important {
   display: block;
   margin-top: 30px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   padding: 0 15px
 }
 
 .p-important__box {
   border: 1px solid #000;
   text-align: center;
-  padding: 15px;
+  padding: 14px;
   margin-bottom: 15px
 }
 
@@ -913,6 +919,12 @@ a:hover {
   }
   .p-instagram__itemImg {
     max-width: 350px
+  }
+}
+
+@media screen and (max-width:959px) {
+  .p-instagram {
+    padding-top: 0
   }
 }
 
