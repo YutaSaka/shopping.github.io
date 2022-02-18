@@ -164,7 +164,8 @@ a {
 }
 
 .l-footer__navList {
-  width: 33.33%
+  width: 33.33%;
+  margin-bottom: 5px;
 }
 
 .l-footer__navLink {
